@@ -39,7 +39,7 @@ module Rpush
         attribute :delay_while_idle, :boolean
         attribute :registration_ids, :array
         attribute :uri, :string
-        attribute :priority, :integer
+        attribute :priority, :integer, default: 10
         attribute :url_args, :array
         attribute :category, :string
         attribute :content_available, :boolean, default: false
